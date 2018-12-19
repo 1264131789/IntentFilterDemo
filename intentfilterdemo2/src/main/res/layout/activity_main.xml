@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.shbj.intentfilterdemo2.activity.MainActivity">
+
+    <Button
+        android:id="@+id/btn_bind_service"
+        style="@style/NormalButtonStyle"
+        android:text="bindService"/>
+
+    <Button
+        android:id="@+id/btn_add_book"
+        style="@style/NormalButtonStyle"
+        android:text="addBook"/>
+
+    <Button
+        android:id="@+id/btn_get_book_list"
+        style="@style/NormalButtonStyle"
+        android:text="getBookList"/>
+
+    <Button
+        android:id="@+id/btn_registerListener"
+        style="@style/NormalButtonStyle"
+        android:text="registerListener"/>
+
+    <Button
+        android:id="@+id/btn_unRegisterListener"
+        style="@style/NormalButtonStyle"
+        android:text="unRegisterListener"/>
+
+    <Button
+        android:id="@+id/btn_start_provider_activity"
+        style="@style/NormalButtonStyle"
+        android:text="startProviderActivity"/>
+
+    <Button
+        android:id="@+id/btn_start_messenger_activity"
+        style="@style/NormalButtonStyle"
+        android:text="startMessengerService"/>
+
+    <Button
+        android:id="@+id/btn_send_message"
+        style="@style/NormalButtonStyle"
+        android:text="sendMessage"/>
+
+    <Button
+        android:id="@+id/btn_connect_server"
+        style="@style/NormalButtonStyle"
+        android:text="connectServer"/>
+
+</LinearLayout>
